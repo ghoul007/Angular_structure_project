@@ -7,6 +7,7 @@
     "lite": "lite-server",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
+    "postInstall": "typings install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/ghoul007/Angular_structure_project#readme",
   "devDependencies": {
     "lite-server": "^2.3.0",
-    "typescript": "^2.5.3"
+    "typescript": "^2.5.3",
+    "typings": "^2.1.1"
   }
 }
