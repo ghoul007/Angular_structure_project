@@ -4,6 +4,7 @@
   "description": "\"# Angular_structure_project\"",
   "main": "index.js",
   "scripts": {
+    "start": "tsc && concurrently \" tsc -w \" \" lite-server \" ",
     "lite": "lite-server",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/ghoul007/Angular_structure_project#readme",
   "devDependencies": {
+    "concurrently": "^3.5.0",
     "lite-server": "^2.3.0",
     "typescript": "^2.5.3",
     "typings": "^2.1.1"
