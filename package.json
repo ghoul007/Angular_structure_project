@@ -7,6 +7,8 @@
     "start": "tsc && concurrently \" tsc -w \" \" lite-server \" ",
     "lite": "lite-server",
     "tsc": "tsc",
+    "rollup": "node_modules/.bin/rollup -c rollup-config.js",
+    "ngc": "node_modules/.bin/ngc -p tsconfig-aot.json",
     "tsc:w": "tsc -w",
     "postInstall": "typings install",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,24 +26,28 @@
   "devDependencies": {
     "concurrently": "^3.5.0",
     "lite-server": "^2.3.0",
+    "rollup": "^0.50.0",
+    "rollup-plugin-commonjs": "^8.2.5",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1",
     "typescript": "^2.5.3",
     "typings": "^2.1.1"
   },
   "dependencies": {
     "@angular/common": "~4.3.4",
     "@angular/compiler": "~4.3.4",
+    "@angular/compiler-cli": "^4.4.6",
     "@angular/core": "~4.3.4",
     "@angular/forms": "~4.3.4",
     "@angular/http": "~4.3.4",
     "@angular/platform-browser": "~4.3.4",
     "@angular/platform-browser-dynamic": "~4.3.4",
+    "@angular/platform-server": "^4.4.6",
     "@angular/router": "~4.3.4",
-
-
     "core-js": "^2.5.1",
-    "rxjs": "^5.0.1",
-    "zone.js": "^0.8.4",
     "reflect-metadata": "^0.1.10",
-    "systemjs": "^0.20.19"
+    "rxjs": "^5.0.1",
+    "systemjs": "^0.20.19",
+    "zone.js": "^0.8.4"
   }
 }

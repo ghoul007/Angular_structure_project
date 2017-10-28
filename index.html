@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script>window.module = 'aot'</script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
@@ -14,11 +15,13 @@
    <script src="/node_modules/core-js/client/shim.min.js"></script>
    
        <script src="/node_modules/zone.js/dist/zone.js"></script>
-       <script src="/node_modules/systemjs/dist/system.src.js"></script>
+       <!-- <script src="/node_modules/systemjs/dist/system.src.js"></script>
    
        <script src="/systemjs.config.js"></script>
        <script>
          System.import('app/main.js').catch(function(err){ console.error(err); });
-       </script>
+       </script> -->
+
+       <script src="dist/build.js"></script>
 </body>
 </html>

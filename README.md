@@ -16,3 +16,12 @@ typings install dt~jquery dt~core-js  dt~node --global --save
 
  ### dependencies
  npm install core-js node.js reflect-metadata exjs systemjs --save
+
+ ##Production mode
+ ### Compliation AOT
+ npm install @angular/compiler-cli @angular/platform-server --save
+
+
+ "node_modules/.bin/ngc" -p tsconfig-aot.json
+
+ https://angular.io/guide/aot-compiler
