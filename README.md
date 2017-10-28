@@ -13,3 +13,6 @@ typings install dt~jquery dt~core-js  dt~node --global --save
  
  ### Concurently 
  npm install concurrently --save-dev
+
+ ### dependencies
+ npm install core-js node.js reflect-metadata exjs systemjs --save
