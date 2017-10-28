@@ -28,6 +28,16 @@
     "typings": "^2.1.1"
   },
   "dependencies": {
+    "@angular/common": "~4.3.4",
+    "@angular/compiler": "~4.3.4",
+    "@angular/core": "~4.3.4",
+    "@angular/forms": "~4.3.4",
+    "@angular/http": "~4.3.4",
+    "@angular/platform-browser": "~4.3.4",
+    "@angular/platform-browser-dynamic": "~4.3.4",
+    "@angular/router": "~4.3.4",
+
+
     "core-js": "^2.5.1",
     "exjs": "^1.2.1",
     "node.js": "0.0.0",
